@@ -1,0 +1,10 @@
+:root{
+  --borderColor: red;
+  --bgHeader: white;
+  --navColor:#292828 !important;
+  --DemoColor:linear-gradient(0deg,#0a0a0a,#484444);
+  --bgText: gray;
+  --borderColor:;
+  --bgButton:#292727bf;
+  --boxShadow:rgba(19,18,18,0.8);
+}

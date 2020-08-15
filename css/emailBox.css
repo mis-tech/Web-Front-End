@@ -1,0 +1,96 @@
+
+
+		.Pstyle{
+			font-size:24px;
+		}
+		btn-lg{
+			background-color: black;
+		}
+
+		#wrap{
+		
+			margin: 20px auto 0;
+			height: 500px;
+		
+		
+		}
+
+		h1{
+			margin-bottom: 20px;
+			text-align: center;
+			font-size: 35px;
+			font-family: tahoma;
+			color: white;
+		}
+
+		#form-wrap{
+			overflow: hidden;
+			height: 447px;
+			position: relative;
+			transition: all 1s ease-in-out .3s;
+		}
+
+
+
+		.frmstyle{
+			background: white;
+			position: relative;
+			top: 20px;
+			overflow: hidden;
+			height: 450px;
+			width: 100%;
+			
+			padding:20px;
+			border:2px solid gray var(--borderColor);
+			border-right: 3px;
+			transition: all 1s ease-in-out .3s;
+		}
+
+	
+
+		.LbStyle{
+			margin: 11px 20px 0 0;
+			font-size: 15px;
+			color: gray;
+			text-transform: uppercase;
+		}
+
+		.inStyle[type=text], .txtareaStyle{
+			font:14px normal uppercase, arial, serif;
+			color: dimgray;
+			background:none;
+			width: 100%;
+			height: 37px;
+			padding:0px 10px;
+			margin: 0 0 10px 0;
+			border:1px solid #f8f5f1;
+			border-radius: 5px;
+		}
+
+		.inStyle[type=email], .inStyle{
+			font:14px normal uppercase, arial, serif;
+			color: dimgray;
+			background:none;
+			width: 100%;
+			height: 37px;
+			padding:0px 10px;
+			margin: 0 0 10px 0;
+			border:1px solid #f8f5f1 var(--borderColor);
+			border-radius: 5px;
+		}
+		.txtareaStyle{
+			height: 80px;
+			padding-top: 14px;
+		}
+
+		.txtareaStyle:focus,
+		.inStyle[type=text]:focus{
+			background-color: white;
+		}
+
+
+
+
+		.btonSend:hover{
+			color: gray;
+		}

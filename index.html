@@ -1,0 +1,773 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>SpeakingWords</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Music template project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src="js/jquery.min.js"></script>
+<script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+
+<!-- for main home area -->
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="icon" href="images/favicon.ico">
+<link rel="stylesheet" type="text/css" href="styles/styleGallery.css">
+<link rel="stylesheet" type="text/css" href="css/piegraph.css">
+<link rel="stylesheet" type="text/css" href="css/colmnGraph.css">
+<!--<link rel="stylesheet" type="text/css" href="css/var_peigrapgh.css">
+-->
+<link rel="stylesheet" type="text/css" href="css/BtnNeonStyle.css">
+<link href="https://fonts.googleapis.com/css?family=Sofia&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/txteraStyle.css">
+<link rel="stylesheet" type="text/css" href="css/aboutStyle.css">
+<link rel="stylesheet" type="text/css" href="css/MyStyles.css">
+<link rel="stylesheet" href="css/reg-style.css">
+<link rel="stylesheet" type="text/css" href="css/demoPlay.css">
+<link href="font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="css/album.css">
+<link rel="stylesheet" type="text/css" href="css/emailBox.css">
+<link rel="stylesheet" type="text/css" href="css/default.css">
+<link id="theme-style" rel="stylesheet" type="text/css" href="">
+
+
+
+</head>
+<body>
+
+
+<div class="super_container">
+    <!-- Header -->
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-light fixed-top" style="background-color: var(--navColor) !important; ">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation" style="background-color: #611f1f ">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#"><img class="loader" src="images/Log.png" ></a>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#demo1">Test System<span class="sr-only">(current)</span></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#demo2">Demo</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#help">Help</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="#search">Search</a>
+      </li>
+      <li class="nav-item">
+            <a class="nav-link" href="#gallery">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sign_In</a>
+          </li>
+    </ul>
+  </div>
+</nav>
+
+
+    <!-- Header Area End -->
+
+
+ <!-- Welcome Area Start -->
+   
+    <section class="welcome-area " style="border-radius: 30px; padding-top:4px; ">
+        <div class="welcome-slides owl-carousel">
+
+            <!-- Single Welcome Slide -->
+            <div class="single-welcome-slide bg-img bg-overlay"  style="background: var(--bgHeader); height: 400px">
+                <!-- Welcome Content -->
+                <div class="welcome-content h-100">
+                    <div class="container h-100">
+                        <div class="row h-100 align-items-center justify-content-center">
+                            <!-- Welcome Text -->
+                            <div class="col-12 col-md-9 col-lg-6">
+                                <div class="welcome-text text-center">
+                                    <div id="theme-options-wrapper" >
+                                        <div data-mode="light" id="light-mode" class="theme-dot" style="background-color: purple"></div>
+                                        <div data-mode="blue" id="blue-mode" class="theme-dot" style="background-color: blue"></div>
+                                        <div data-mode="green" id="green-mode" class="theme-dot" style="background-color: green"></div>
+                                        <div data-mode="purple" id="purple-mode" class="theme-dot" style="background-color: #6d4105c9"></div>
+                                        </div>
+
+                                        <div id="theme-options-wrapper"><h4 class="theme-text" style="color: white">Speaking Words</h4></div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- Welcome Area End -->
+ 
+
+
+
+
+    <!-- Demo -->
+<section>
+<br id="demo1">
+<br><br>
+<br><br>
+<div id="theme-options-wrapper" style=""><h4 class="theme-text">Test Audio</h4></div><br>
+<div class="container justify-content-center align-items-center" id="dmo" style="padding-top:40px">
+    <div class="row justify-content-center">
+        <div class="col-sm-12 col-md-6 demmo">
+            <div class="glow" style="    background:var(--DemoColor)">
+                <div class="text-container">
+                  <span class="text demtxt">Audio Play</span>
+                  <br>
+                  <span class="text demtxt">Welcome to SpeakingWords' World</span>
+                  <br>
+                  <div class="playback_controls">
+                    <a id="play-pause-button" style="font-size: 50px;cursor: pointer;" class="fa fa-play"></a>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<br  id="help"><br><br><br><br>
+
+    <!-- Help Section -->
+
+    <!-- Newsletter -->
+
+
+<section style="width: 100%" >
+  <br>
+ <div id="theme-options-wrapper" style=""><h4 class="theme-text">Help Section</h4></div><br> 
+<div class="container cntn" style="width: 100%"> 
+    <div class="card crd" style="display:flex">
+      <h3>Type Text</h3>
+      <div class="imgBox">
+        <img  class="imag" src="images/101.JPG">
+      </div>
+      <div class="details"><br><br>
+        
+        <p style="color: black; font-size: 20px">You must have to enter at least 50 characters.The text must be in English.<br><br>
+          <a class="NeonBtn" href="#demo2" data-animation="fadeInUpBig" data-delay="700ms">
+               <span class="NeonBtun"></span>
+               <span class="NeonBtun"></span>
+                <span class="NeonBtun"></span>
+                <span class="NeonBtun"></span>
+                Lets' Start
+           </a>
+        </p>
+      </div>
+    </div>
+    <div class="card crd" style="display:flex">
+      <h3>Web Scraping</h3>
+      <div class="imgBox">
+        <img  class="imag" src="images/102.JPG">
+      </div>
+      <div class="details"><br><br>
+        
+        <p style="color: black; font-size: 20px"> The text is fetched from the web page and then cleaned using different libraries like regex, Tokenizer and stopwords etc.<br> <br>
+         
+        </p>
+      </div>
+    </div>
+    <div class="card crd" style="display:flex">
+      <h3>File Browsing</h3>
+      <div class="imgBox">
+        <img  class="imag" src="images/103.PNG">
+      </div>
+      <div class="details"><br><br>
+        
+        <p style="color: black; font-size: 25px">You can also browse a txt file to convert it into audio file.Browse Only txt files.<br>
+          <a class="NeonBtn" href="#demo2" data-animation="fadeInUpBig" data-delay="700ms">
+               <span class="NeonBtun"></span>
+               <span class="NeonBtun"></span>
+                <span class="NeonBtun"></span>
+                <span class="NeonBtun"></span>
+                Lets' Start
+           </a>
+        </p>
+      </div>
+    </div>
+</div>
+</section>
+
+
+
+<section>
+<br><br>
+<div id="theme-options-wrapper" style=""><h4 class="theme-text">Input Text</h4></div><br>
+<div class="container" style="background-color:  rgb(245, 245, 245), linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)); padding-bottom: 10px; background-repeat: no-repeat; background-size: cover; padding-right: 0px; padding-left: 0px;">
+  <div class="row" style="padding-right: 30px; padding-left: 30px; justify-content: center;">
+    <div class="col-md-6 col-sm-12" style="padding-right: 0px; padding-left: 0px; width: 100%">
+
+        <form method="POST">
+            <h1 class="txtaraTiltle"></h1>
+            <div class="boxText" style="width: 100%; background:rgba(177, 179, 208, 0.9);">
+              <textarea class="textt" name="fulltextarea" id="field"  maxlength="5000" rows="5" cols="40" style="overflow:scroll; color: black; background-color: var(--bgText)" required></textarea>
+            </div>
+            <div class="timer" style="width: 100%">
+              <h4><div class="message one justify-content-start">
+                
+              </div></h4>
+            </div>
+
+              
+              <input id="txtFirstName" placeholder="Enter Name" name="File_name" style="width: 70%; height: 35px" >
+              <button type="submit" name="submit" value="Save" style="width: 28%; font-size: 10px; letter-spacing: 0px; justify-content: center; border-radius: 1px; border-color: var(--borderColor)" class="NeonBtn">
+                  <span class="NeonBtun"></span>
+                  <span class="NeonBtun"></span>
+                  <span class="NeonBtun"></span>
+                  <span class="NeonBtun"></span>
+                              Save
+              </button>
+              <br><br>
+               <button type="submit" name="submit" value="Summarize_Text" style="width: 25%;float: center; font-size: 10px; letter-spacing: 0px; justify-content: center; border-radius: 1px; border-color: var(--borderColor)" class="NeonBtn">
+                  <span class="NeonBtun"></span>
+                  <span class="NeonBtun"></span>
+                  <span class="NeonBtun"></span>
+                  <span class="NeonBtun"></span>
+                              Summarize
+              </button>
+              <button type="submit" name="submit" value="Convert_to_voice" style="width: 20%;float: center; font-size: 10px; letter-spacing: 0px; justify-content: center; border-radius: 1px; border-color: var(--borderColor)" class="NeonBtn">
+                  <span class="NeonBtun"></span>
+                  <span class="NeonBtun"></span>
+                  <span class="NeonBtun"></span>
+                  <span class="NeonBtun"></span>
+                              Listen
+              </button>
+              <button type="submit" name="submit" value="Convert_to_voice" style="width: 19%;float: center; font-size: 10px; letter-spacing: 0px; justify-content: center; border-radius: 1px; border-color: var(--borderColor)" class="NeonBtn">
+                  <span class="NeonBtun"></span>
+                  <span class="NeonBtun"></span>
+                  <span class="NeonBtun"></span>
+                  <span class="NeonBtun"></span>
+                              Back
+              </button>
+              <button type="submit" name="submit" value="Convert_to_voice" style="width: 19%;float: center; font-size: 10px; letter-spacing: 0px; justify-content: center; border-radius: 1px; border-color: var(--borderColor)" class="NeonBtn">
+                  <span class="NeonBtun"></span>
+                  <span class="NeonBtun"></span>
+                  <span class="NeonBtun"></span>
+                  <span class="NeonBtun"></span>
+                              Clear
+              </button>
+        
+        </form><br> 
+
+     </div>
+  </div>
+
+
+  <div class="row" style="padding-right: 30px; padding-left: 30px; justify-content: center;">
+    <div class="col-md-6 col-sm-12" style="padding-right: 0px; padding-left: 0px; width: 100%">
+      <form method="POST">
+          <div class="boxTextBtn" style="width: 100%; justify-content: center;padding-left: 5%;  height: 130px; background-color: var(--bgText)">
+            <input id="txtFirstName" value="" name="Word" style="width: 40%; height: 48px" required>
+            <textarea   rows="4" cols="50" style="width: 50%;height: 48px; position: absolute;"></textarea><br><br>
+            <button type="submit" name="submit" value="Synonym" style="width: 30%; font-size: 10px; letter-spacing: 0px; border-color: var(--borderColor)justify-content: center;" class="NeonBtn">
+                      <span class="NeonBtun"></span>
+                      <span class="NeonBtun"></span>
+                      <span class="NeonBtun"></span>
+                      <span class="NeonBtun"></span>
+                          Synonym
+                  </button>
+                 
+                  <button  name="submit" value="Translation" style="width: 35%; font-size: 10px; letter-spacing: 0px; justify-content: center; border-color: var(--borderColor)" class="NeonBtn">
+                      <span class="NeonBtun"></span>
+                      <span class="NeonBtun"></span>
+                      <span class="NeonBtun"></span>
+                      <span class="NeonBtun"></span>
+                          Translation
+                  </button>
+        </form>
+        <audio id = "player" src = "#"></audio>
+                  <button  style="width: 30%; font-size: 10px; letter-spacing: 0px; justify-content: center; border-color: var(--borderColor)" class="NeonBtn" onclick = "document.getElementById('player').play()">
+                      <span class="NeonBtun"></span>
+                      <span class="NeonBtun"></span>
+                      <span class="NeonBtun"></span>
+                      <span class="NeonBtun"></span>
+                      Pronounce
+                  </button>
+          </div>
+
+      
+          
+     </div>
+  </div>
+  
+  
+  <div class="row" style="padding-right: 30px; padding-left: 30px; justify-content: center; padding-top: 0px">
+    <div class="col-md-6 col-sm-12" style="padding-right: 0px; padding-left: 0px; width: 100%">
+        <div class="boxTextBtn" style="width: 100%; justify-content: center;padding-left: 5%;  height: 45px; background-color: var(--bgText)">
+          <form  method="POST">
+            <div class="form-row align-items-center" style="width: 100%">
+              <div class="col-auto" style="width: 100%">
+                <label class="sr-only" for="inlineFormInputGroup">Paste Here...</label>
+                <div class="input-group mb-2">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">URL</div>
+                  </div>
+                  <textarea name="fulltextarea" class="form-control" aria-label="With textarea" required></textarea>
+                  <input class="btn btn-primary|secondary|success|danger|warning|info|light|dark" type="submit" name="submit" value="Scrap">
+                </div>
+              </div>
+            </div>
+        </form>
+        </div>
+     </div>
+  </div>
+<br>
+
+
+  <div class="row" style="padding-right: 30px; padding-left: 30px; justify-content: center; padding-top: 0px">
+    <div class="col-md-6 col-sm-12" style="padding-right: 0px; padding-left: 0px; width: 100%">
+        <div class="boxTextBtn" style="width: 100%; justify-content: center;padding-left: 5%;  height: 45px; background-color: var(--bgText)">
+
+        <form method="post" enctype="multipart/form-data">
+            <div class="form-row align-items-center" style="width: 100%">
+              <div class="col-auto" style="width: 100%">
+                <label class="sr-only" for="inlineFormInputGroup">Paste Here...</label>
+                <div class="input-group mb-2">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">File</div>
+                  </div>
+                    <input type="file" name="document" id="chooseFile" class="form-control" aria-label="With textarea" required>  
+                    <input class="btn btn-primary|secondary|success|danger|warning|info|light|dark" type="submit" name="submit" value="Read_Data">
+                </div>
+              </div>
+            </div>
+          </form>
+          </div>
+       </div>
+    </div>
+   </div>
+
+</section>
+
+
+
+
+
+  <br id="demo2">
+  <br>
+<br><br>
+<br>
+<section>
+
+<div class="container" style="background-color: rgb(245, 245, 245), linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)); padding-bottom: ; background-repeat: no-repeat; background-size: cover; padding-right: 0px; padding-left: 0px;">
+<div id="theme-options-wrapper" style=""><h4 class="theme-text">Enjoy Audio Files</h4></div><br><br>
+  <div class="container text-center" style="margin-bottom: 0px">
+    <div class="row" style="padding-top: 0px">
+      <div class="col-md-6 mx-auto">
+        <form class="mb-5">
+          <div class="form-group">
+            <textarea name="" id="text-input" class="form-control form-control-lg" placeholder="Type anything..."  maxlength="5000" rows="10" cols="40" style="overflow:scroll; color: black; height: 250px">{{ text }}</textarea>
+          </div>
+          <div class="form-group">
+            <label for="rate" style="">Rate</label>
+            <div id="rate-value" class="badge badge-primary float-right" style="background-color: var(--bgText)">1</div>
+            <input type="range" id="rate" class="custom-range" min="0.5" max="2" value="1" step="0.1" style="height: .9rem;">
+          </div>
+          <div class="form-group">
+            <label for="pitch">Pitch</label>
+            <div id="pitch-value" class="badge badge-primary float-right" style="background-color: var(--bgText)">1</div>
+            <input type="range" id="pitch" class="custom-range" min="0" max="2" value="1" step="0.1" style="height: .9rem;">
+          </div>
+          <div class="form-group">
+            <select id="voice-select" class="form-control form-control-lg"></select>
+          </div>
+
+         <div class="btn-group" role="group" aria-label="Basic example">
+
+            <button type="button" class="btn-sm" style="background-color: var(--bgButton); border-color: var(--borderColor)" onclick="tr.queue()">Speak It</button>
+            <button type="button" class="btn-sm" style="background-color: var(--bgButton); border-color: var(--borderColor)" onclick="tr.pause()">Pause</button>
+            <button type="button" class="btn-sm" style="background-color: var(--bgButton); border-color: var(--borderColor)" onclick="tr.play()">Play</button>
+            <button type="button" class="btn-sm" style="background-color: var(--bgButton); border-color: var(--borderColor)"  onclick="tr.cancel()">Cancel</button>
+
+          </div>
+        </form>
+          <a style="width: 50%; font-size: 15px; letter-spacing: 0px; justify-content: center; border-radius: 1px; " class="NeonBtn btun btn-lg btn-secondary" href="#">
+            <span class="NeonBtun"></span>
+            <span class="NeonBtun"></span>
+            <span class="NeonBtun"></span>
+            <span class="NeonBtun"></span>
+            Back
+          </a>
+      
+      </div>
+    </div>
+  </div>
+
+ </div>
+</section>
+
+
+
+
+
+<section id="search">
+  <br>
+<br><br><br>
+
+      <main role="main">
+          <section class="jumbotron text-center">
+            <div class="container">
+                      
+
+              <div id="theme-options-wrapper" style="overflow: hidden;"><h2 class="theme-text">Search Youtube</h2></div>
+              <p class="lead text-muted"><h4>Get the top nine results on YouTube for your query!</h4></p>
+              <form method="POST">
+                <div class="input-group mb-3">
+                      <input type="text" name="search" class="form-control" aria-label="Username">
+                </div>
+                    <p>
+                      <button  type="submit" name="submit" value="search" class="btn my-2" style="background-color: var(--bgButton)">YouTube Search</button>
+                      <button type="submit" name="submit" value="lucky" class="btn my-2" style="background-color: var(--bgButton)">I'm Feeling Lucky</button>
+
+                    </p>
+              </form>
+              <a href="#" class="btn my-2" style="background-color: var(--bgButton)">Home</a>
+              
+            </div>
+          </section>
+<br><br>
+<div id="theme-options-wrapper" style=""><h4 class="theme-text">Search Results</h4></div><br><br>
+          <div class="album py-5" style="">
+            <div class="container">
+              <div class="row">
+               
+                <div class="col-md-4">
+                  <div class="card mb-4 shadow-sm">
+
+                      <iframe class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://youtu.be/LTMNdqsFh9M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                    <div class="card-body" style="height: 150px">
+                      <p class="card-text">Video One</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a type="button" href="#" class="btn btn-sm btn-outline-secondary">View</a>
+                        </div>
+                        <small class="text-muted">30 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card mb-4 shadow-sm">
+
+                      <iframe class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://youtu.be/gKrTetBsjpQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                    <div class="card-body" style="height: 150px">
+                      <p class="card-text">Video One</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a type="button" href="#" class="btn btn-sm btn-outline-secondary">View</a>
+                        </div>
+                        <small class="text-muted">30 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card mb-4 shadow-sm">
+
+                      <iframe class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://youtu.be/lBK_kh4iCAQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                    <div class="card-body" style="height: 150px">
+                      <p class="card-text">Video One</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a type="button" href="#" class="btn btn-sm btn-outline-secondary">View</a>
+                        </div>
+                        <small class="text-muted">30 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </main>
+</section>
+
+
+
+<br id="gallery"><br><br><br><br>
+<section>
+<div id="theme-options-wrapper" style=""><h4 class="theme-text">Audio Gallery</h4></div><br><br>
+
+<div class="container cntn">
+  
+    <div class="card crd" style="display:flex">
+      <h3>Audio1</h3>
+      <div class="imgBox">
+        <img  class="imag" src="images/bgpic2 (2).JPG">
+      </div>
+      <div class="details"><br><br><br>
+        <p>Audio Stream
+          <audio controls style="width:200px;">
+              <source src="#" type="audio/mp3">
+              Your browser does not support the audio tag.
+            </audio>
+            <br>
+            <a class="NeonBtn" href="#" data-animation="fadeInUpBig" data-delay="700ms">
+               <span class="NeonBtun"></span>
+               <span class="NeonBtun"></span>
+                <span class="NeonBtun"></span>
+                <span class="NeonBtun"></span>
+                Add New
+           </a>
+        </p>
+      </div>
+    </div>
+
+    <div class="card crd" style="display:flex">
+      <h3>Audio2</h3>
+      <div class="imgBox">
+        <img  class="imag" src="images/bgpic2 (2).JPG">
+      </div>
+      <div class="details"><br><br><br>
+        <p>Audio Stream
+          <audio controls style="width:200px;">
+              <source src="#" type="audio/mp3">
+              Your browser does not support the audio tag.
+            </audio>
+            <br>
+            <a class="NeonBtn" href="#" data-animation="fadeInUpBig" data-delay="700ms">
+               <span class="NeonBtun"></span>
+               <span class="NeonBtun"></span>
+                <span class="NeonBtun"></span>
+                <span class="NeonBtun"></span>
+                Add New
+           </a>
+        </p>
+      </div>
+    </div>
+
+    <div class="card crd" style="display:flex">
+      <h3>Audio3</h3>
+      <div class="imgBox">
+        <img  class="imag" src="images/bgpic2 (2).JPG">
+      </div>
+      <div class="details"><br><br><br>
+        <p>Audio Stream
+          <audio controls style="width:200px;">
+              <source src="#" type="audio/mp3">
+              Your browser does not support the audio tag.
+            </audio>
+            <br>
+            <a class="NeonBtn" href="#" data-animation="fadeInUpBig" data-delay="700ms">
+               <span class="NeonBtun"></span>
+               <span class="NeonBtun"></span>
+                <span class="NeonBtun"></span>
+                <span class="NeonBtun"></span>
+                Add New
+           </a>
+        </p>
+      </div>
+    </div>
+  
+</div>
+</section>
+
+
+
+<section>
+
+<br><br><br><br>
+<div class="container" style="height: 500px;">
+  <div class="row" >
+    <div class="col-sm-12 col-md-6 " id="wrap" style="height: 500px">
+        <form class="frmstyle" method="POST" >
+            <p class="Pstyle" style="color: black">Contact Us</p>
+            
+            <label for="name" class="LbStyle">Name:</label>
+            <input type="text" name="message_name" value="" id="name" style="border:1px solid var(--borderColor)" class="inStyle" required>
+
+                <label for="name" class="LbStyle">Email:</label>
+                <input type="email" name="message_email" id="email"  class="inStyle" pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+(?:[A-Z]{2}|com|org|net|gov|mil|biz|info|mobi|name|aero|jobs|museum)\b"  style="border:1px solid var(--borderColor)" placeholder="example@gmail.com" required>
+
+
+            <label for="email" class="LbStyle">Your Message:</label>
+            <textarea name="message" id="message" value="Your Message" style="border:1px solid  var(--borderColor)" class="txtareaStyle" required></textarea>
+
+                <button type="submit" name="submit" value="NewSending" style="width: 30%;height: 35px; font-size: 15px; letter-spacing: 0px; justify-content: center; border-radius: 1px; float: right; border-color: var(--borderColor)" class="NeonBtn">
+                        <span class="NeonBtun"></span>
+                        <span class="NeonBtun"></span>
+                        <span class="NeonBtun"></span>
+                        <span class="NeonBtun"></span>
+                            Send
+                  </button>
+  
+    </div>
+  </div>
+</div>
+
+ 
+
+</section>
+
+<br><br>
+
+    <!-- Footer -->
+
+     <footer class="footer">
+        <div class="background_image" style="background-color: var(--bgHeader)"></div>
+        <div class="footer_content">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center">
+
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a href="#" class="d-flex flex-row align-items-end justify-content-start">
+                                <span class="logo_bars d-flex flex-row align-items-end justify-content-between"><span></span><span></span><span></span><span></span><span></span></span>
+                                <span class="logo_text">SPEAKING WORDS</span>
+                            </a>
+                        </div>
+
+                        <!-- Footer Social -->
+                        <div class="footer_social">
+                            <ul class="d-flex flex-row align-items-center justify-content-center">
+                                <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="copyright text-center">
+                          <h3 style="color: white;">Developed By Iram Shahzadi, from COMSATS University Islamabad Sahiwal campus</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+    </footer>
+ 
+</div>
+
+
+
+
+
+
+<script src="styles/bootstrap-4.1.2/popper.js"></script>
+<script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
+
+<!--for main home area -->
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.easypiechart.js"></script>
+<script src="js/jquery.easypiechart.min.js"></script>
+
+<script src="js/3dslider.js"></script>
+
+<!-- Dashboard-->
+<script src="js/highcharts.js"></script>
+<script src="js/pieChart.js"></script>
+<script src="js/colChart.js"></script>
+<script src="js/variable-pie.js"></script>
+<script src="js/var_pieChart.js"></script>
+<script src="js/donutGraph.js"></script>
+
+
+<script src="js/jquery.js"></script>
+<script src="js/txteraa.js"></script>
+
+<script src="js/index.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+
+<script type="text/javascript">
+    var audio = new 
+    Audio('media/story.mp3');
+
+    $('#play-pause-button').on("click",function(){
+      if($(this).hasClass('fa-play'))
+       {
+         $(this).removeClass('fa-play');
+         $(this).addClass('fa-pause');
+         audio.play();
+       }
+      else
+       {
+         $(this).removeClass('fa-pause');
+         $(this).addClass('fa-play');
+         audio.pause();
+       }
+    });
+
+    audio.onended = function() {
+         $("#play-pause-button").removeClass('fa-pause');
+         $("#play-pause-button").addClass('fa-play');
+    };
+</script> 
+ 
+
+
+<script type="text/javascript"> 
+      $(function() {
+          $('#txtFirstName').keydown(function(e) {
+            if (e.shiftKey || e.ctrlKey || e.altKey) {
+              e.preventDefault();
+            } else {
+              var key = e.keyCode;
+              if (!((key == 8) || (key == 46) || (key >= 35 && key <= 40) || (key >= 65 && key <= 90))) {
+                e.preventDefault();
+              }
+            }
+          });
+        });
+    </script>
+
+
+<script>
+
+        $(function() {
+          $('#c1').click(function() {
+            $("#field").val("")
+          });
+        });    
+</script>
+<script>
+    $('#chooseFile').bind('change', function () {
+      var filename = $("#chooseFile").val();
+      if (/^\s*$/.test(filename)) {
+        $(".file-upload").removeClass('active');
+        $("#noFile").text("No file chosen..."); 
+      }
+      else {
+        $(".file-upload").addClass('active');
+        $("#noFile").text(filename.replace("C:\\fakepath\\", "")); 
+      }
+    });
+</script>
+
+
+
+</body>
+</html>
